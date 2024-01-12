@@ -7,7 +7,7 @@ import '../../styles/receta.css';
 import { Link } from 'react-router-dom';
 
 
-const serverUrl = 'http://localhost:3000';
+const serverUrl = 'https://dhermesback.onrender.com';
 
 function TratamientoInfo() {
     const [tratamientoInfo, setTratamientoInfo] = useState([]);

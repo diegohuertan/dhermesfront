@@ -14,7 +14,7 @@ import axios from 'axios';
 import { useState} from 'react';
 
 
-const serverUrl = 'http://localhost:3000';
+const serverUrl = 'https://dhermesback.onrender.com';
 
 const defaultTheme = createTheme();
 
