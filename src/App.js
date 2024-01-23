@@ -1,6 +1,5 @@
-import React, { useEffect } from "react";
 import { useRoutes } from "react-router";
-import Router from "./routes/Router";
+
 import "./index.css";
 
 function App() {
