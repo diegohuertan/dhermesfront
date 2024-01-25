@@ -6,7 +6,7 @@ import RecipeReviewCard from './components/recetacard';
 import { TextField, Button , Grid} from '@mui/material';
 
 
-const serverUrl = 'https://dhermesback.onrender.com';
+const serverUrl = 'http://18.223.120.220:3000';
 
 function Perros() {
   const [perros, setPerros] = useState([]);

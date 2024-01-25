@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const serverUrl = 'https://dhermesback.onrender.com';
+const serverUrl = 'http://18.223.120.220:3000';
 
 function Usuario() {
   const [searchEmail, setSearchEmail] = useState('');

@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Grid, Paper, Typography, TextField, Button, Box, MenuItem } from '@mui/material';
 import PageContainer from '../../components/container/PageContainer';
 
-const serverUrl = 'https://dhermesback.onrender.com';
+const serverUrl = 'http://18.223.120.220:3000';
 
 function CrearTratamiento() {
     const [diagnostico, setDiagnostico] = useState('');
